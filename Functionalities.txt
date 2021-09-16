@@ -1,0 +1,25 @@
+1.  Table creation
+2.  Calculate Age from DOB
+3.  Create separate Transfer Table using Available players
+4.  Check Transfer Status using Function
+5.  Send Transfer Request. Can send transfer request/BID for a player only if,
+	 - Transfer Status for that player is 'Pending' or 'Askmore'
+6.  Can BID only if BID price is greater than the Base price
+7.  Once BID is placed, can not cahnge BID unless opposite team responds
+8.  Can see BID for their own players that they got
+9.  Can response against that BID.[Ask for more/ Reject BID]
+10. Check if BID can be placed for a player
+11. If the player is not in the list, then show a message that the player is not avalable
+12. Can ask for more money for a player
+	 - Create a separate response is asked for more money
+	 - Check for which player they will ask for more moeny
+	 - In response will ask , if other team will place BID again or not
+	 - Prompt if any other key s pressed
+	 - Can cancel any further BID for that particular player
+	 - Can place BID again
+	 - If once BID is cancelled then cannot place any further BID for that player
+	 - Can cancel or accept BID only if the Tansfer Status is pending. If the status is canelled
+	   or asked for then cannot Accept BID at that point
+	 - If BID is accepted, then the player will be transfered to the other team
+	 - After Transfer gets complete then, the Transfer Status will change to Not Available
+	 - Base Price will increase to Brought Price
